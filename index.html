@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morenotec - Manutenção e Automação Industrial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2a9d8f;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header img {
+            height: 50px;
+            vertical-align: middle;
+        }
+        nav {
+            display: inline-block;
+            margin-left: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            background: url('banner-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .banner p {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .banner button {
+            background-color: #e76f51;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .about, .services, .differentials, .testimonials, .contact {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about img, .services img {
+            float: right;
+            margin-left: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #2a9d8f;
+            margin-top: 0;
+        }
+        .footer {
+            background-color: #264653;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .footer a {
+            color: #e9c46a;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Morenotec Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Serviços</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div>
+            <h1>Manutenção e Automação Industrial de Confiança</h1>
+            <p>Soluções personalizadas para máxima eficiência dos seus equipamentos industriais.</p>
+            <button>Saiba Mais</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="about">
+            <h2>Sobre Nós</h2>
+            <p>A Morenotec é uma empresa dedicada a oferecer soluções de manutenção e automação industrial que garantem a máxima eficiência dos seus equipamentos. Com uma equipe altamente qualificada, estamos prontos para atender suas necessidades específicas.</p>
+            <img src="about-us.jpg" alt="Sobre Nós">
+        </section>
+
+        <section class="services">
+            <h2>Nossos Serviços</h2>
+            <p>Oferecemos uma gama completa de serviços de manutenção e automação, incluindo suporte técnico, otimização de processos, e muito mais. Estamos aqui para manter seus equipamentos funcionando no melhor desempenho.</p>
+            <img src="services.jpg" alt="Nossos Serviços">
+        </section>
+
+        <section class="differentials">
+            <h2>Diferenciais</h2>
+            <p>Nosso diferencial é o atendimento personalizado e ágil, combinado com expertise técnica de alto nível. Adaptamos nossas soluções às necessidades de cada cliente, sempre buscando superar as expectativas.</p>
+        </section>
+
+        <section class="testimonials">
+            <h2>Depoimentos de Clientes</h2>
+            <p>"A Morenotec transformou nossa operação com suas soluções de automação. A equipe é incrível!" - Cliente Satisfeito</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
+            <p>Telefone: (XX) XXXX-XXXX</p>
+            <p>Email: contato@morenotec.com.br</p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Morenotec. Todos os direitos reservados.</p>
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </footer>
+</body>
+</html>
